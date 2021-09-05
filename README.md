@@ -26,6 +26,9 @@ https://covid19.ddc.moph.go.th/api/Cases/timeline-cases-all
 
 Based on these datasets, we need to clean them for analysis.
 
+More details can be found in the attached report or from the following medium blog 
+- https://pete-taecha.medium.com/can-we-predict-thailand-stock-with-google-trends-and-covid19-stats-2b5ecf0712f4
+
 ## Installation <a name="installation"></a>
 
 1. Download all files
