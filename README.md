@@ -14,6 +14,8 @@ Project relating to the stock market prediction and analysis in Thailand using s
 
 The main problem that we are looking to explore and solve is in the stock market domain. Recent trends, in Thailand, have shown that stock market prices have been affected by the increase in covid19 statistics and this also has been influenced by the google search information. Here, we look to explore whether these have an impact in predicting the stock information or not and how we can optimise our models to yield the highest performance.
 
+The main motivation for the project is based on the recent trends that we can see how stock prices in Thai have plummeted when a new covid19 wave hits. So we want to see whether we can use this as a factor for stock price prediction.
+
 This project originated as an idea and an exploration to use various data sources to help predict the stock market data. 
 
 The data set/source we used are as follows
@@ -53,15 +55,32 @@ Pip install keras
 Pip install tensorflow
 
 ### Project files <a name="project_files"></a>
-Main project files to refer to in this project includes
+Main project files to refer to in this project includes (notebook files)
 - proj_capstone_pete_1_dataexplore.ipynb
 - proj_capstone_pete_2_train_model_optimise.ipynb
 - proj_capstone_pete_3_predict_results.ipynb
 
-The rest of te files are the data temporary information generated.
+Drafted notebook files
+- proj_cap_data_explore_pete_draft.ipynb
+- proj_capstone_pete_draft.ipynb
+
+Data files
+- 20210828_test_prophet_rmse_pair_data.csv
+- 20210901_set_stock_industry.csv
+- 20210904_rmse_feature_table.csv
+- all_stock_price_2020_to_202106.csv
+- df_merge.csv
+- proj_capstone_slides.key
+- SET_all.xlsx
+
+Python files
+- stock_functions.py - Functions used in the project
 
 Report of this project is named as
 - Udacity Data Science Nanodegree Capstone project - Pete v1
+
+Additional files
+- requirements.txt - For seeing the list of library versions used
 
 ### Project details <a name="project_details"></a>
 Project required multiple process and steps. For deep details of the project, please refer to the report file.
@@ -77,6 +96,15 @@ Learnings are mainly on the whole development flow along with the different algo
 ## Results<a name="results"></a>
 Results can be found in the following notebook.
 - proj_capstone_pete_3_predict_results.ipynb
+
+The summary is that we are able to use the following algorithms for predicting with the most optimal results.
+- Gradient boosting
+- Facebook prophet
+- LSTM
+
+The covid19 statististics is not in one of the optimal features used for prediction.
+The Google trends information is part of the features used for prediction.
+This means that, covid19 has no correlation to the stock price changes, but there is for Google trends.
 
 For more information, check the Jupyter notebook files or contact the project's author.
 
